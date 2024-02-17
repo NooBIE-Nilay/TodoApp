@@ -22,7 +22,7 @@ git clone https://github.com/NooBIE-Nilay/TodoApp.git
 cd TodoApp/server
 npm install
 tsc
-node server/dist/server/index
+node dist/index
 ```
 
 ## Contributing

@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from "express";
-import { userObject, todoObject } from "../../common/src";
+import { userObject, todoObject } from "@nilay-n00bie/common";
 import jwt from "jsonwebtoken";
 
 import "dotenv/config";
