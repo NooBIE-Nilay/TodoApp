@@ -1,5 +1,6 @@
 # Node.js
-node_modules/
+common/node_modules
+node_modules
 npm-debug.log
 yarn-error.log
 
@@ -21,6 +22,7 @@ build/
 .env.*.local
 
 # Dependency lock files
+package.json
 package-lock.json
 yarn.lock
 
