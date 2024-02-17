@@ -4,10 +4,11 @@ This is the backend server for the Todo Web App.
 
 ## Prerequisites
 
-- Npm
-- Git
+- [Npm](https://www.npmjs.com/package/npm)
+- [Git](https://git-scm.com/)
+- [TSC](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
 
-## Downloading The Repository
+## Cloning The Repository
 
 Clone the [Todo App Repository](https://github.com/NooBIE-Nilay/TodoApp.git).
 
@@ -18,8 +19,9 @@ git clone https://github.com/NooBIE-Nilay/TodoApp.git
 ## Usage
 
 ```bash
+cd TodoApp/server
 npm install
-tsc server/
+tsc
 node server/dist/server/index
 ```
 
