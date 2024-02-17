@@ -22,7 +22,6 @@ build/
 .env.*.local
 
 # Dependency lock files
-package.json
 package-lock.json
 yarn.lock
 
