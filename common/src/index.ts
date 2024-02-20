@@ -10,4 +10,8 @@ export const todoObject = z.object({
   description: z.string().min(0).max(50),
   is_done: z.boolean().optional(),
   userId: z.string().min(1).optional(),
+  _id: z.string().optional(),
 });
+
+export type userParams = z.infer<typeof userObject>;
+export type todoParams = z.infer<typeof todoObject>;
